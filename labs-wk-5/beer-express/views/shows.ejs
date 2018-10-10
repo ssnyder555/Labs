@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>This ma beer list</h1>
+    <%= beer.name %> is a type of <%= beer.type %>
+    <% if(beer.readyToDrink === true) {%>
+        <h3>It is ready to chug</h3>
+    <% } else { %>
+      <h3>It aint ready to chug</h3>
+    <% } %>
+
+
+
+  </body>
+</html>
